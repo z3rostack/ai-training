@@ -3,13 +3,22 @@ name = "ai-training"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 dependencies = [
- "pydantic",
- "pandas",
- "ruff>=0.15.17",
+    "json-repair>=0.59.10",
+    "langchain-core>=0.3.0",
+    "langchain-litellm>=0.2.1",
+    "langgraph>=1.2.5",
+    "litellm>=1.86.2",
+    "pandas>=3.0.3",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.14.1",
+    "pytest>=9.0.3",
+    "python-dotenv>=1.2.2",
+    "pyyaml>=6.0.3",
+    "ruff>=0.15.17",
+    "utils>=1.0.2",
 ]
-
 norecursedirs = ["ai-advanced-agent-workshop"] # add this if cloning reference repo
 
 [dependency-groups]
