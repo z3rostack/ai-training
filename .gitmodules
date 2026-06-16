@@ -1,0 +1,3 @@
+[submodule "ai-advanced-agent-workshop"]
+	path = ai-advanced-agent-workshop
+	url = https://github.com/AI360-Labs/ai-advanced-agent-workshop
